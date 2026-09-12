@@ -1,0 +1,26 @@
+# Material de referencia privado (bases del cargo, documentos internos).
+# NO se versiona nunca: este repositorio es público.
+docs/privado/
+*.pdf
+
+# Secretos y configuración local
+.env
+.env.local
+!.env.example
+
+# Dependencias
+node_modules/
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
