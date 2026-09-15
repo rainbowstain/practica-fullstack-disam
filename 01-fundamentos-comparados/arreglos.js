@@ -3,18 +3,18 @@
 
 // Fundamentos comparados - Arreglos y bucles en JavaScript
 
-const solicitudes = ["___", "___", "___", "___"];
+const solicitudes = ["1", "2", "3", "4"];
 
-// predigo: ___
+// predigo: 1 2 3 4
 console.log(solicitudes);
-// real: ___
+// real: 1 2 3 4
 
 // el primero
-// predigo: ___
+// predigo: 1
 console.log(solicitudes[0]);
-// real: ___
+// real: 1
 
 // el último
-// predigo: ___
+// predigo: 2
 console.log(solicitudes[solicitudes.length - 1]);
-// real: ___
+// real: 4
